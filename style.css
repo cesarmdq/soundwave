@@ -80,3 +80,20 @@ body {
   justify-content: space-between;
   flex-grow: 1;
 }
+.home-main-section .img-wrapper {
+  flex-grow: 1;
+  flex-direction: column;
+  display: flex;
+  align-items: stretch;
+  justify-content: end;
+}
+
+.home-main-section .lady-image {
+  background-image: url(images/landing-page-girl.png);
+  flex-grow: 1;
+  max-width: 70vh;
+  min-height: 30vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
