@@ -74,3 +74,9 @@ body {
   text-decoration: none;
   font-size: 0.9rem;
 }
+.home-main-section {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-grow: 1;
+}
