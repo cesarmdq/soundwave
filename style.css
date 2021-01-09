@@ -104,6 +104,45 @@ body {
   margin: 1rem;
   align-self: center;
 }
+.home-page-circle-1 {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  background-color: rgb(188, 58, 128, 0.1);
+  bottom: 2vw;
+  left: 5vw;
+  z-index: -1;
+}
+.home-page-circle-2 {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  background-color: rgb(52, 87, 178, 0.1);
+  top: 10vw;
+  left: 30vw;
+  z-index: -1;
+}
+.home-page-circle-3 {
+  position: absolute;
+  overflow: hidden;
+  width: 25vw;
+  height: 25vw;
+  bottom: 0vw;
+  right: 0vw;
+  z-index: -1;
+}
+.home-page-circle-3::before {
+  content: "";
+  transform: translate(40%, 40%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: rgb(52, 87, 178, 0.1);
+}
+/*MEDIA QUERIES*/
 @media (max-width: 900px) {
   .home-main-section .img-wrapper {
     display: none;
