@@ -192,6 +192,8 @@ body {
 .icon img {
   width: 40px;
 }
+/*JOIN STYLES*/
+
 /*MEDIA QUERIES*/
 @media (max-width: 900px) {
   .home-main-section .img-wrapper {
